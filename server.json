@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fit.memory/memory-fit",
+  "title": "Memory.fit",
+  "description": "Your training, sleep, recovery and fuel for the AI you use: it reads your week and plans the next.",
+  "version": "1.0.0",
+  "websiteUrl": "https://memory.fit",
+  "repository": {
+    "url": "https://github.com/Fun-Management-SRL/memory-fit-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://memory.fit/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.memory.fit/mcp"
+    }
+  ]
+}

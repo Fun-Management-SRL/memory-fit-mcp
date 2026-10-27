@@ -1,0 +1,10 @@
+{
+  "name": "memory-fit",
+  "version": "1.0.0",
+  "description": "Your training, sleep, recovery and fuel for Gemini: it reads your week and writes your plans back to the Memory.fit app.",
+  "mcpServers": {
+    "memory-fit": {
+      "httpUrl": "https://api.memory.fit/mcp"
+    }
+  }
+}

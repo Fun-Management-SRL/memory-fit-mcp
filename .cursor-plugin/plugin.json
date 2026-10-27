@@ -1,0 +1,11 @@
+{
+  "name": "memory-fit",
+  "description": "Your training, sleep, recovery and fuel in one place for your AI: it reads your week and writes your plans back to the Memory.fit app.",
+  "version": "1.0.0",
+  "author": { "name": "Memory.fit", "email": "support@memory.fit" },
+  "homepage": "https://memory.fit",
+  "repository": "https://github.com/Fun-Management-SRL/memory-fit-mcp",
+  "license": "MIT",
+  "keywords": ["fitness", "training", "endurance", "nutrition", "sleep", "garmin", "apple-health", "triathlon", "running", "cycling"],
+  "logo": "assets/logo.png"
+}
