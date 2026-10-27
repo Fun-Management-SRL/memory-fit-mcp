@@ -21,9 +21,30 @@ This repository holds only the connection settings for Memory.fit MCP, a hosted 
 | Claude Code | `claude mcp add --transport http memory-fit https://api.memory.fit/mcp` |
 | Codex | `codex mcp add memory-fit --url https://api.memory.fit/mcp` |
 | Gemini CLI | `gemini extensions install https://github.com/Fun-Management-SRL/memory-fit-mcp` |
+| Cline | MCP Servers › Remote Servers: name `memory-fit`, URL `https://api.memory.fit/mcp`, transport Streamable HTTP (or the JSON below) |
 | Anything else | Any MCP client: the address above, then sign in |
 
 Step-by-step pages for each AI: [memory.fit/ai-coaches](https://memory.fit/ai-coaches).
+
+### Cline, or any client with a JSON settings file
+
+```json
+{
+  "mcpServers": {
+    "memory-fit": {
+      "type": "streamableHttp",
+      "url": "https://api.memory.fit/mcp",
+      "disabled": false
+    }
+  }
+}
+```
+
+The first call opens the Memory.fit sign-in (OAuth 2.1). A client without OAuth can use a personal key from the app (Settings › AI agents › Use a key instead) as a header:
+
+```json
+"headers": { "Authorization": "Bearer mem_pat_..." }
+```
 
 ## What your AI can do
 
