@@ -60,5 +60,8 @@ Memory.fit recommends nothing itself: the plans are your AI's, the data is yours
 - Privacy: https://memory.fit/privacy
 - Terms: https://memory.fit/terms
 - Support: support@memory.fit
+- Glama: https://glama.ai/mcp/servers/Fun-Management-SRL/memory-fit-mcp
+
+[![Memory.fit MCP server on Glama](https://glama.ai/mcp/servers/Fun-Management-SRL/memory-fit-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Fun-Management-SRL/memory-fit-mcp)
 
 The connection settings in this repository are MIT licensed. Memory.fit, the server and the app are not.
