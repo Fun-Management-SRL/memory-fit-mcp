@@ -22,6 +22,7 @@ This repository holds only the connection settings for Memory.fit MCP, a hosted 
 | Codex | `codex mcp add memory-fit --url https://api.memory.fit/mcp` |
 | Gemini CLI | `gemini extensions install https://github.com/Fun-Management-SRL/memory-fit-mcp` |
 | Cline | MCP Servers › Remote Servers: name `memory-fit`, URL `https://api.memory.fit/mcp`, transport Streamable HTTP (or the JSON below) |
+| Hermes Agent | Add the server with `auth: oauth`, or use the key package in [`hermes-plugin/`](hermes-plugin/) |
 | Anything else | Any MCP client: the address above, then sign in |
 
 Step-by-step pages for each AI: [memory.fit/ai-coaches](https://memory.fit/ai-coaches).

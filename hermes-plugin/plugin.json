@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "memory-fit",
+  "version": "1.0.0",
+  "description": "Memory.fit: your training, your AI, one memory. Your watch and health apps, readable and writable by the AI you already use.",
+  "author": {
+    "name": "Memory.fit",
+    "email": "contact@memory.fit",
+    "url": "https://memory.fit"
+  },
+  "homepage": "https://memory.fit/ai-agents?utm_source=hermes&utm_medium=directory",
+  "repository": "https://github.com/Fun-Management-SRL/memory-fit-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "fitness",
+    "training",
+    "sleep",
+    "recovery",
+    "fuel",
+    "garmin",
+    "health",
+    "running",
+    "cycling"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "memory-fit": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
